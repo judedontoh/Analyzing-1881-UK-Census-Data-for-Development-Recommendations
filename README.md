@@ -27,12 +27,15 @@ Analyzing historical census data is crucial for several reasons:
     df_original = pd.read_csv("census20.csv")
     df = df_original.copy()  # Preserve original data
     ```
+![DataFrame Loading](path/to/pandas.png)
 
 ### 2. Data Cleaning
 - Checked for missing values to ensure data quality and integrity.
     ```python
     df.isna().sum()
     ```
+![Missing Values](path/to/isna.png)
+
 - Created a copy of the original data to preserve it for reference and made transformations on the copied data.
     ```python
     df_cleaned = df.dropna()  # Example of a cleaning step
@@ -61,6 +64,7 @@ Analyzing historical census data is crucial for several reasons:
     sns.kdeplot(df['age'], shade=True)
     plt.show()
     ```
+![Demographic Analysis](path/to/demograph.png)
 
 ### 5. Religious Affiliations
 - Investigated the religious composition of the population.
@@ -87,7 +91,7 @@ Analyzing historical census data is crucial for several reasons:
     ```python
     sns.barplot(x='housing_type', y='occupancy_rate', data=df)
     plt.show()
-   
+    ```
 
 ## Findings and Recommendations
 - **Demographics:** The town exhibited a diverse age distribution with significant proportions of working-age individuals and children, indicating potential for workforce development and educational investments.
