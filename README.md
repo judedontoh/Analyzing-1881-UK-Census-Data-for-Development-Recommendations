@@ -100,12 +100,3 @@ Analyzing historical census data is crucial for several reasons:
 
 ## Conclusion
 The analysis of the 1881 UK census data provided valuable insights into the town's demographics, religious affiliations, and housing needs. These insights are critical for making informed decisions about urban planning and investments. Historical data, when analyzed effectively, can serve as a powerful tool to guide future development and enhance the quality of life for community residents.
-
-## How to Run the Project
-To replicate this analysis:
-1. Clone the repository from GitHub.
-2. Ensure all necessary libraries are installed (`pandas`, `seaborn`, `matplotlib`, etc.).
-3. Run the Jupyter Notebook to load the data and execute the analysis steps.
-4. Review the visualizations and findings to understand the data insights and recommendations.
-
-This project demonstrates the importance of data analysis in uncovering valuable historical insights and informing future development strategies. It serves as a testament to the power of data in driving informed decision-making and community planning.
