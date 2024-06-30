@@ -1,4 +1,4 @@
-# UK Census 1881 Data Analysis for Urban Planning and Investment
+# 🏢 UK Census 1881 Data Analysis for Urban Planning and Investment
 
 ## Overview
 This project analyzes an 1881 UK census dataset to identify investment opportunities and provide development recommendations for a small town, focusing on demographics, religious affiliations, and housing needs.
