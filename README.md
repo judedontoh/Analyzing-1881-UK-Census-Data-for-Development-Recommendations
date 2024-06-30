@@ -27,14 +27,14 @@ Analyzing historical census data is crucial for several reasons:
     df_original = pd.read_csv("census20.csv")
     df = df_original.copy()  # Preserve original data
     ```
-![DataFrame Loading](path/to/pandas.png)
+![DataFrame Loading](pandas.png)
 
 ### 2. Data Cleaning
 - Checked for missing values to ensure data quality and integrity.
     ```python
     df.isna().sum()
     ```
-![Missing Values](path/to/isna.png)
+![Missing Values](isna.png)
 
 - Created a copy of the original data to preserve it for reference and made transformations on the copied data.
     ```python
@@ -64,7 +64,7 @@ Analyzing historical census data is crucial for several reasons:
     sns.kdeplot(df['age'], shade=True)
     plt.show()
     ```
-![Demographic Analysis](path/to/demograph.png)
+![Demographic Analysis](demograph.png)
 
 ### 5. Religious Affiliations
 - Investigated the religious composition of the population.
